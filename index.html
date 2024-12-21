@@ -1,0 +1,996 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CAPITALSHOP</title>
+  <link rel="icon" href="IMAGE/loder.png">
+  <!-- CSS STYLE LINK  -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- BOOTSTRAP LONL  -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+
+  <!-- FONT AWESOME LINK  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- GOOGLE FONTS LINK  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Dancing+Script:wght@400..700&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sacramento&family=Updock&display=swap"
+    rel="stylesheet">
+
+  <!-- SLIDER LINK  -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Swiper CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+</head>
+
+<body>
+  <!--SECTION OF NAVBAR  -->
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <div class="container-fluid" id="nav">
+        <!-- LOGO -->
+        <div class="col-md-3 text-center">
+          <a class="navbar-brand" href="#">
+            <img src="IMAGE/logo.png.webp" alt="" height="45px">
+          </a>
+        </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="menu text-dark">MENU</span>
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- NAVBAR ITEM -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <div class="col-lg p-2 py-3">
+            <ul class="navbar-nav">
+              <li class="nav-item ms-6">
+                <a class="nav-link active text-dark ms-4" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link  text-dark ms-4" href="men.html">Men</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark ms-4" href="women.html">Women</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark ms-4 position-relative" href="baby-collection.html">
+                  Baby Collection
+                  <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                    New
+                    <span class="visually-hidden">unread messages</span>
+                  </span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark ms-4" href="pages.html">Pages</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark ms-4" href="blog.html">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark ms-4" href="contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+          <!-- ICON -->
+          <div class="col-lg-4 text-center">
+            <i class="fa-solid icon fa-magnifying-glass fs-5 mt-2 ms-4"></i>
+            <i class="fa-regular icon fa-user fs-5 mt-2 ms-4"></i>
+            <i class="fa-solid icon fa-cart-shopping fs-5 mt-2 ms-4 position-relative">
+              <span class="position-absolute button-3 top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                1
+                <span class="visually-hidden mt-2">unread messages</span>
+              </span>
+            </i>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- SECTION OF OFFER -->
+  <section class="sale-section">
+    <div class="container-fluid bg-dark text-white text-center">
+      <div class="row">
+        <div class="col-md-12 mt-3">
+          <p>Sale Up To 50% Biggest Discounts. Hurry! Limited Perriod Offer <span id="shop">Shop Now</span> </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- SECTION OF FASHION SALES  -->
+  <section>
+
+    <div class="container-fluid fashion">
+      <!-- SWIPER  -->
+      <div class="swiper mySwiper ">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide  hero1 img-fluid">
+            <div class="container fashion-sale ">
+              <div class="row px-12">
+                <div class="col-md-6 text-center px-12 py-12">
+                  <!-- CONTAINE WRITTE  -->
+                  <div class="line">
+                    <span class="lineUp Sale ">Fashion Sale</span>
+                    <h1 class="lineUp  Minimal">Minimal Menz Style</h1>
+                    <p class="lineUp fs-5 Laborum">Consectetur adipisicing elit. Laborum fuga incidunt <br>
+                      laboriosam
+                      voluptas iure,delectus dignissimos facilis <br> neque nulla earum.</p>
+                    <div class="d-grid gap-6 col-6 px-3 mx-auto">
+                      <button type="button" class="btn shop-now fw-bold mt-3 px-6 py-3 btn-dark lineUp">SHOP
+                        NOW</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6"></div>
+              </div>
+            </div>
+          </div>
+          <!-- SWIPER  -->
+          <div class="swiper-slide hero2 img-fluid">
+            <div class="container fashion-sale ">
+              <div class="row  px-12">
+                <div class="col-md-6"></div>
+                <div class="col-md-6 text-center px-12 py-12">
+                  <!-- CONTAINE WRITTE  -->
+                  <div class="line">
+                    <span class="lineUp Sale ">Fashion Sale</span>
+                    <h1 class="lineUp  Minimal">Minimal Menz Style</h1>
+                    <p class="lineUp fs-5 Laborum">Consectetur adipisicing elit. Laborum fuga incidunt <br>
+                      laboriosam
+                      voluptas iure,delectus dignissimos facilis <br> neque nulla earum.</p>
+                    <div class="d-grid gap-6 col-6 px-3 mx-auto">
+                      <button type="button" class="btn shop-now fw-bold mt-3 px-6 py-3 btn-dark lineUp">SHOP
+                        NOW</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-button-next swiper-box"></div>
+        <div class="swiper-button-prev swiper-box"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION ONE IN FASHION  -->
+  <section>
+    <div class="container producat">
+      <div class="row producat-contain">
+        <!-- PROUDCAT ONE  -->
+        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 mt-5">
+          <div class="producat-item">
+            <div class="image-item">
+              <img src="IMAGE/items1.jpg.webp" alt="" class="men-fashion">
+              <div class="gradient-overlay"></div>
+              <div class="item-detail">
+                <h2><a href="#" class="men link-light">Men's Fashion</a></h2>
+                <a href="#" class="men-shop">Shop Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- PROUDCAT TWO  -->
+        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 mt-5">
+          <div class="producat-item">
+            <div class="image-item">
+              <img src="IMAGE/items2.jpg.webp" alt="" class="women-fashion">
+              <div class="gradient-overlay"></div>
+              <div class="item-detail">
+                <h2><a href="#" class="men link-light">Women's Fashion</a></h2>
+                <a href="#" class="men-shop">Shop Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- PRODUCAT THREE  -->
+        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 mt-5">
+          <div class="producat-item">
+            <div class="image-item">
+              <img src="IMAGE/items3.jpg" alt="" class="baby-fashion">
+              <div class="gradient-overlay"></div>
+              <div class="item-detail">
+                <h2><a href="#" class="men link-light">Baby's Fashion</a></h2>
+                <a href="#" class="men-shop">Shop Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION OF TRENDING THIS WEEK NAV  -->
+  <div class="latest-items section-padding fix">
+    <div class="container mt-5">
+      <div class="row justify-content-between py-5">
+        <div class="col-xl-12">
+          <div class="nav-button">
+
+            <!--Nav Button  -->
+            <nav>
+              <div class="nav-tittle">
+                <h2>Trending This Week</h2>
+              </div>
+              <div class="nav nav-tabs d-flex ms-auto justify-content-end" id="nav-tab" role="tablist">
+                <a class="nav-link active link-dark" id="nav-one-tab" data-bs-toggle="tab" href="#" role="tab"
+                  aria-controls="nav-one" aria-selected="true">Men</a>
+                <a class="nav-link link-dark" id="nav-two-tab" data-bs-toggle="tab" href="#" role="tab"
+                  aria-controls="nav-two" aria-selected="false">Women</a>
+                <a class="nav-link link-dark" id="nav-three-tab" data-bs-toggle="tab" href="#" role="tab"
+                  aria-controls="nav-three" aria-selected="false">Baby</a>
+                <a class="nav-link link-dark" id="nav-four-tab" data-bs-toggle="tab" href="#" role="tab"
+                  aria-controls="nav-four" aria-selected="false">Fashion</a>
+              </div>
+            </nav>
+            <!--End Nav Button  -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- SECTION OF TRENDING THIS WEEK ITEM  -->
+    <section>
+      <div class="container trending-cloths mb-5">
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+            <!-- FIRST CARD IMAGE -->
+            <div class="swiper-slide col-md-3">
+              <div class="card" style="width: 18rem;">
+                <div class="properties-img">
+                  <a href="#" class="pro-details"><img src="IMAGE/latest1.jpg" alt="" class="latest"></a>
+                  <div class="socal_icon">
+                    <a href="#"><i class="fa-solid fa-cart-shopping shopping"></i></a>
+                    <a href="#"><i class="fa-solid fa-heart"></i></a>
+                    <a href="#"><i class="fa-solid fa-magnifying-glass-plus"></i></a>
+                  </div>
+                </div>
+                <div class="properties-caption properties-caption2">
+                  <h3><a href="#" class="pro-details">Cashmere Tank + Bag</a></h3>
+                  <div class="properties-footer">
+                    <div class="price">
+                      <span>$98.00 <span class="wrong-price">$120.00</span></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- SECOND CARD IMAGE -->
+            <div class="swiper-slide col-md-3">
+              <div class="card" style="width: 18rem;">
+                <div class="properties-img">
+                  <a href="#" class="pro-details"><img src="IMAGE/latest2.jpg.webp" alt="" class="latest"></a>
+                  <div class="socal_icon">
+                    <a href="#"><i class="fa-solid fa-cart-shopping shopping"></i></a>
+                    <a href="#"><i class="fa-solid fa-heart"></i></a>
+                    <a href="#"><i class="fa-solid fa-magnifying-glass-plus"></i></a>
+                  </div>
+                </div>
+                <div class="properties-caption properties-caption2">
+                  <h3><a href="#" class="pro-details">Cashmere Tank + Bag</a></h3>
+                  <div class="properties-footer">
+                    <div class="price">
+                      <span>$98.00 <span class="wrong-price">$120.00</span></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- THIRD CARD IMAGE -->
+            <div class="swiper-slide col-md-3">
+              <div class="card" style="width: 18rem;">
+                <div class="properties-img">
+                  <a href="#" class="pro-details"><img src="IMAGE/latest3.jpg" alt="" class="latest"></a>
+                  <div class="socal_icon">
+                    <a href="#"><i class="fa-solid fa-cart-shopping shopping"></i></a>
+                    <a href="#"><i class="fa-solid fa-heart"></i></a>
+                    <a href="#"><i class="fa-solid fa-magnifying-glass-plus"></i></a>
+                  </div>
+                </div>
+                <div class="properties-caption properties-caption2">
+                  <h3><a href="#" class="pro-details">Cashmere Tank + Bag</a></h3>
+                  <div class="properties-footer">
+                    <div class="price">
+                      <span>$98.00 <span class="wrong-price">$120.00</span></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- FOURTH CARD IMAGE -->
+            <div class="swiper-slide col-md-3">
+              <div class="card" style="width: 18rem;">
+                <div class="properties-img">
+                  <a href="#" class="pro-details"><img src="IMAGE/latest4.jpg" alt="" class="latest"></a>
+                  <div class="socal_icon">
+                    <a href="#"><i class="fa-solid fa-cart-shopping shopping"></i></a>
+                    <a href="#"><i class="fa-solid fa-heart"></i></a>
+                    <a href="#"><i class="fa-solid fa-magnifying-glass-plus"></i></a>
+                  </div>
+                </div>
+                <div class="properties-caption properties-caption2">
+                  <h3><a href="#" class="pro-details">Cashmere Tank + Bag</a></h3>
+                  <div class="properties-footer">
+                    <div class="price">
+                      <span>$98.00 <span class="wrong-price">$120.00</span></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- TAB 2  -->
+            <!-- FIRST CARD IMAGE -->
+            <div class="swiper-slide col-md-3">
+              <div class="card" style="width: 18rem;">
+                <div class="properties-img">
+                  <a href="#"><img src="IMAGE/latest1.jpg" alt="" class="latest"></a>
+                  <div class="socal_icon">
+                    <a href="#"><i class="fa-solid fa-cart-shopping shopping"></i></a>
+                    <a href="#"><i class="fa-solid fa-heart"></i></a>
+                    <a href="#"><i class="fa-solid fa-magnifying-glass-plus"></i></a>
+                  </div>
+                </div>
+                <div class="properties-caption properties-caption2">
+                  <h3><a href="#" class="pro-details">Cashmere Tank + Bag</a></h3>
+                  <div class="properties-footer">
+                    <div class="price">
+                      <span>$98.00 <span class="wrong-price">$120.00</span></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- SECOND CARD IMAGE -->
+            <div class="swiper-slide col-md-3">
+              <div class="card" style="width: 18rem;">
+                <div class="properties-img">
+                  <a href="#" class="pro-details"><img src="IMAGE/latest2.jpg.webp" alt="" class="latest"></a>
+                  <div class="socal_icon">
+                    <a href="#"><i class="fa-solid fa-cart-shopping shopping"></i></a>
+                    <a href="#"><i class="fa-solid fa-heart"></i></a>
+                    <a href="#"><i class="fa-solid fa-magnifying-glass-plus"></i></a>
+                  </div>
+                </div>
+                <div class="properties-caption properties-caption2">
+                  <h3><a href="#" class="pro-details">Cashmere Tank + Bag</a></h3>
+                  <div class="properties-footer">
+                    <div class="price">
+                      <span>$98.00 <span class="wrong-price">$120.00</span></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- THIRD CARD IMAGE -->
+            <div class="swiper-slide col-md-3">
+              <div class="card" style="width: 18rem;">
+                <div class="properties-img">
+                  <a href="#" class="pro-details"><img src="IMAGE/latest3.jpg" alt="" class="latest"></a>
+                  <div class="socal_icon">
+                    <a href="#"><i class="fa-solid fa-cart-shopping shopping"></i></a>
+                    <a href="#"><i class="fa-solid fa-heart"></i></a>
+                    <a href="#"><i class="fa-solid fa-magnifying-glass-plus"></i></a>
+                  </div>
+                </div>
+                <div class="properties-caption properties-caption2">
+                  <h3><a href="#" class="pro-details">Cashmere Tank + Bag</a></h3>
+                  <div class="properties-footer">
+                    <div class="price">
+                      <span>$98.00 <span class="wrong-price">$120.00</span></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- FOURTH CARD IMAGE -->
+            <div class="swiper-slide col-md-3">
+              <div class="card" style="width: 18rem;">
+                <div class="properties-img">
+                  <a href="#" class="pro-details"><img src="IMAGE/latest4.jpg" alt="" class="latest"></a>
+                  <div class="socal_icon">
+                    <a href="#"><i class="fa-solid fa-cart-shopping shopping"></i></a>
+                    <a href="#"><i class="fa-solid fa-heart"></i></a>
+                    <a href="#"><i class="fa-solid fa-magnifying-glass-plus"></i></a>
+                  </div>
+                </div>
+                <div class="properties-caption properties-caption2">
+                  <h3><a href="#" class="pro-details">Cashmere Tank + Bag</a></h3>
+                  <div class="properties-footer">
+                    <div class="price">
+                      <span>$98.00 <span class="wrong-price">$120.00</span></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <!-- SECTION OF TRENDIG THIS WEEK FINISH -->
+    <!-- SECTION OF Customer Testimonial -->
+    <section>
+      <!-- Testimonial Start -->
+      <div class="testimonial-area testimonial-padding">
+        <div class="container-fluid p-5">
+          <div class="row justify-content-center">
+            <div class="col-xl-10 col-lg-10 col-md-11">
+              <!-- Initialize Swiper -->
+              <div class="swiper-container customer-testimonial h1-testimonial-active">
+                <div class="swiper-wrapper">
+                  <!-- Single Testimonial -->
+                  <div class="swiper-slide single-testimonial text-center">
+                    <div class="testimonial-caption">
+                      <div class="testimonial-top-cap">
+                        <h2 class="Customer">Customer Testimonial</h2>
+                        <p class="para">
+                          Everybody is different, which is why we offer styles for every body. <br>
+                          Laborum fuga incidunt laboriosam voluptas iure, delectus dignissimos <br>
+                          facilis neque nulla earum.
+                        </p>
+                      </div>
+                      <!-- Founder -->
+                      <div class="testimonial-founder d-flex align-items-center justify-content-center">
+                        <div class="founder-img">
+                          <img src="IMAGE/founder2-img.png" alt="" class="founder">
+                        </div>
+                        <div class="founder-text">
+                          <span class="Petey">Petey Cruiser</span>
+                          <p class="Designer">Designer at Colorlib</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Duplicate Single Testimonial for More Slides -->
+                  <div class="swiper-slide single-testimonial text-center">
+                    <div class="testimonial-caption">
+                      <div class="testimonial-top-cap">
+                        <h2 class="Customer">Customer Testimonial</h2>
+                        <p class="para">
+                          Everybody is different, which is why we offer styles for every body. <br>
+                          Laborum fuga incidunt laboriosam voluptagits iure, delectus dignissimos <br>
+                          facilis neque nulla earum.
+                        </p>
+                      </div>
+                      <div class="testimonial-founder d-flex align-items-center justify-content-center">
+                        <div class="founder-img">
+                          <img src="IMAGE/founder2-img.png" alt="" class="founder">
+                        </div>
+                        <div class="founder-text">
+                          <span class="Petey">Petey Cruiser</span>
+                          <p class="Designer">Designer at Colorlib</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Add more testimonials as needed -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- SECTION OF Customer Testimonial END -->
+    <!-- SECTION OF YOU MAY LIKE  -->
+    <div class="container-fluid  p-5">
+      <div class="row">
+        <div class="col-xl-12">
+          <div class="you-like text-center py-3 mb-4">
+            <h2>You May Like</h2>
+          </div>
+        </div>
+      </div>
+      <section>
+        <div class="container trending-cloths mb-5 bg-light">
+          <div class="swiper-container">
+            <div class="swiper-wrapper">
+              <!-- FIRST CARD IMAGE -->
+              <div class="swiper-slide col-md-3 ">
+                <div class="card" style="width: 18rem;">
+                  <div class="properties-img">
+                    <a href="#" class="pro-details"><img src="IMAGE/latest5.jpg" alt="" class="latest"></a>
+                    <div class="socal_icon">
+                      <a href="#"><i class="fa-solid fa-cart-shopping shopping"></i></a>
+                      <a href="#"><i class="fa-solid fa-heart"></i></a>
+                      <a href="#"><i class="fa-solid fa-magnifying-glass-plus"></i></a>
+                    </div>
+                  </div>
+                  <div class="properties-caption properties-caption2">
+                    <h3><a href="#" class="pro-details">Cashmere Tank + Bag</a></h3>
+                    <div class="properties-footer">
+                      <div class="price">
+                        <span>$98.00 <span class="wrong-price">$120.00</span></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- SECOND CARD IMAGE -->
+              <div class="swiper-slide col-md-3">
+                <div class="card" style="width: 18rem;">
+                  <div class="properties-img">
+                    <a href="#" class="pro-details"><img src="IMAGE/latest6.jpg" alt="" class="latest"></a>
+                    <div class="socal_icon">
+                      <a href="#"><i class="fa-solid fa-cart-shopping shopping"></i></a>
+                      <a href="#"><i class="fa-solid fa-heart"></i></a>
+                      <a href="#"><i class="fa-solid fa-magnifying-glass-plus"></i></a>
+                    </div>
+                  </div>
+                  <div class="properties-caption properties-caption2">
+                    <h3><a href="#" class="pro-details">Cashmere Tank + Bag</a></h3>
+                    <div class="properties-footer">
+                      <div class="price">
+                        <span>$98.00 <span class="wrong-price">$120.00</span></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- THIRD CARD IMAGE -->
+              <div class="swiper-slide col-md-3">
+                <div class="card" style="width: 18rem;">
+                  <div class="properties-img">
+                    <a href="#" class="pro-details"><img src="IMAGE/latest7.jpg" alt="" class="latest"></a>
+                    <div class="socal_icon">
+                      <a href="#"><i class="fa-solid fa-cart-shopping shopping"></i></a>
+                      <a href="#"><i class="fa-solid fa-heart"></i></a>
+                      <a href="#"><i class="fa-solid fa-magnifying-glass-plus"></i></a>
+                    </div>
+                  </div>
+                  <div class="properties-caption properties-caption2">
+                    <h3><a href="#" class="pro-details">Cashmere Tank + Bag</a></h3>
+                    <div class="properties-footer">
+                      <div class="price">
+                        <span>$98.00 <span class="wrong-price">$120.00</span></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- FOURTH CARD IMAGE -->
+              <div class="swiper-slide col-md-3 ">
+                <div class="card" style="width: 18rem;">
+                  <div class="properties-img">
+                    <a href="#" class="pro-details"><img src="IMAGE/latest8.jpg" alt="" class="latest"></a>
+                    <div class="socal_icon">
+                      <a href="#"><i class="fa-solid fa-cart-shopping shopping"></i></a>
+                      <a href="#"><i class="fa-solid fa-heart"></i></a>
+                      <a href="#"><i class="fa-solid fa-magnifying-glass-plus"></i></a>
+                    </div>
+                  </div>
+                  <div class="properties-caption properties-caption2">
+                    <h3><a href="#" class="pro-details">Cashmere Tank + Bag</a></h3>
+                    <div class="properties-footer">
+                      <div class="price">
+                        <span>$98.00 <span class="wrong-price">$120.00</span></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- TAB 2  -->
+              <!-- FIRST CARD IMAGE -->
+              <div class="swiper-slide col-md-3">
+                <div class="card" style="width: 18rem;">
+                  <div class="properties-img">
+                    <a href="#"><img src="IMAGE/latest5.jpg" alt="" class="latest"></a>
+                    <div class="socal_icon">
+                      <a href="#"><i class="fa-solid fa-cart-shopping shopping"></i></a>
+                      <a href="#"><i class="fa-solid fa-heart"></i></a>
+                      <a href="#"><i class="fa-solid fa-magnifying-glass-plus"></i></a>
+                    </div>
+                  </div>
+                  <div class="properties-caption properties-caption2">
+                    <h3><a href="#" class="pro-details">Cashmere Tank + Bag</a></h3>
+                    <div class="properties-footer">
+                      <div class="price">
+                        <span>$98.00 <span class="wrong-price">$120.00</span></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- SECOND CARD IMAGE -->
+              <div class="swiper-slide col-md-3">
+                <div class="card" style="width: 18rem;">
+                  <div class="properties-img">
+                    <a href="#" class="pro-details"><img src="IMAGE/latest6.jpg" alt="" class="latest"></a>
+                    <div class="socal_icon">
+                      <a href="#"><i class="fa-solid fa-cart-shopping shopping"></i></a>
+                      <a href="#"><i class="fa-solid fa-heart"></i></a>
+                      <a href="#"><i class="fa-solid fa-magnifying-glass-plus"></i></a>
+                    </div>
+                  </div>
+                  <div class="properties-caption properties-caption2">
+                    <h3><a href="#" class="pro-details">Cashmere Tank + Bag</a></h3>
+                    <div class="properties-footer">
+                      <div class="price">
+                        <span>$98.00 <span class="wrong-price">$120.00</span></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- THIRD CARD IMAGE -->
+              <div class="swiper-slide col-md-3">
+                <div class="card" style="width: 18rem;">
+                  <div class="properties-img">
+                    <a href="#" class="pro-details"><img src="IMAGE/latest7.jpg" alt="" class="latest"></a>
+                    <div class="socal_icon">
+                      <a href="#"><i class="fa-solid fa-cart-shopping shopping"></i></a>
+                      <a href="#"><i class="fa-solid fa-heart"></i></a>
+                      <a href="#"><i class="fa-solid fa-magnifying-glass-plus"></i></a>
+                    </div>
+                  </div>
+                  <div class="properties-caption properties-caption2">
+                    <h3><a href="#" class="pro-details">Cashmere Tank + Bag</a></h3>
+                    <div class="properties-footer">
+                      <div class="price">
+                        <span>$98.00 <span class="wrong-price">$120.00</span></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- FOURTH CARD IMAGE -->
+              <div class="swiper-slide col-md-3">
+                <div class="card" style="width: 18rem;">
+                  <div class="properties-img">
+                    <a href="#" class="pro-details"><img src="IMAGE/latest8.jpg" alt="" class="latest"></a>
+                    <div class="socal_icon">
+                      <a href="#"><i class="fa-solid fa-cart-shopping shopping"></i></a>
+                      <a href="#"><i class="fa-solid fa-heart"></i></a>
+                      <a href="#"><i class="fa-solid fa-magnifying-glass-plus"></i></a>
+                    </div>
+                  </div>
+                  <div class="properties-caption properties-caption2">
+                    <h3><a href="#" class="pro-details">Cashmere Tank + Bag</a></h3>
+                    <div class="properties-footer">
+                      <div class="price">
+                        <span>$98.00 <span class="wrong-price">$120.00</span></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+    </div>
+    <!-- SECTION OF YOU MAY LIKE END  -->
+    <!-- SECTION OF LATEST-NEWS  -->
+    <section>
+      <div class="container-fluid bg-light p-5 mb-5">
+        <div class="row ">
+          <div class="col-md-12 mb-5">
+            <div class="latest-news text-center mb-100">
+              <h2 class="mt-5">Latest News</h2>
+            </div>
+          </div>
+        </div>
+        <div class="container mb-5">
+          <div class="row">
+            <div class="col-md-12 mt-30">
+              <div class="card-group">
+                <div class="card px-3">
+                  <img src="IMAGE/blog1.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <p class="fashion-tips text-secondary fs-6 mb-3">Fashion Tips</p>
+                    <h5 class="the-best">
+                      <a href="#" class="text-decoration-none fs-5 mt-5">What Curling Irons Are The Best Ones</a>
+                    </h5>
+
+                    <p class="pare text-secondary mt-3">Consectetur adipisicing elit. Laborum fuga incidunt laboriosam
+                      voluptas iure,
+                      delectus..</p>
+                    <a href="#" class="red-btn read-more text-dark">Read More</a>
+                  </div>
+                </div>
+                <div class="card px-3">
+                  <img src="IMAGE/blog2.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <p class="fashion-tips text-secondary fs-6 mb-3">Fashion Tips</p>
+                    <h5 class="the-best">
+                      <a href="#" class="text-decoration-none fs-5 mt-5">Vogue's Ultimate Guide To Autumn/
+                        Winter 2019 Shoes</a>
+                    </h5>
+
+                    <p class="pare text-secondary mt-3">Consectetur adipisicing elit. Laborum fuga incidunt laboriosam
+                      voluptas iure,
+                      delectus..</p>
+                    <a href="#" class="red-btn read-more text-dark">Read More</a>
+                  </div>
+                </div>
+                <div class="card px-3 ">
+                  <img src="IMAGE/blog3.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <p class="fashion-tips text-secondary fs-6 mb-3">Fashion Tips</p>
+                    <h5 class="the-best">
+                      <a href="#" class="text-decoration-none fs-5 mt-5">What Curling Irons Are The Best Ones</a>
+                    </h5>
+                    <p class="pare text-secondary mt-3">Consectetur adipisicing elit. Laborum fuga incidunt laboriosam
+                      voluptas iure,
+                      delectus..</p>
+                    <a href="#" class="red-btn read-more text-dark">Read More</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- SECTION OF LATEST-NEWS END -->
+    <!-- SECTION OF FREE DELIVERY  -->
+    <section id="delivery-section" style="display: none;">
+      <div class="container mb-5">
+        <div class="row ">
+          <div class="col-md-3 border-end ">
+            <div class="delivery-image mb-4 text-center fs-1">
+              <img src="IMAGE/services1.svg" alt="">
+            </div>
+            <div class="delivery-text text-center">
+              <h4>Fast & Free Delivery</h4>
+              <p>Free delivery on all orders</p>
+            </div>
+          </div>
+          <div class="col-md-3 border-end text-center">
+            <div class="delivery-image  mb-4  fs-1">
+              <img src="IMAGE/services2.svg" alt="">
+            </div>
+            <div class="delivery-text text-center">
+              <h4>Fast & Free Delivery</h4>
+              <p>Free delivery on all orders</p>
+            </div>
+          </div>
+          <div class="col-md-3 border-end text-center">
+            <div class="delivery-image  mb-4 fs-1">
+              <img src="IMAGE/services3.svg" alt="">
+            </div>
+            <div class="delivery-text text-center">
+              <h4>Fast & Free Delivery</h4>
+              <p>Free delivery on all orders</p>
+            </div>
+          </div>
+          <div class="col-md-3 ">
+            <div class="delivery-image text-center  mb-4 fs-1">
+              <img src="IMAGE/services4.svg" alt="">
+            </div>
+            <div class="delivery-text text-center">
+              <h4>Fast & Free Delivery</h4>
+              <p>Free delivery on all orders</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- SECTION OF FOOTER  -->
+    <footer>
+      <section class="bg-dark">
+        <div class="container py-5 mt-5">
+          <div class="row align-items-center">
+
+            <!-- Subscribe Text Section -->
+            <div class="col-12 col-md-4 text-center text-md-start mb-3 mb-md-0">
+              <div class="subscribe text-white">
+                <h3>Subscribe Newsletter</h3>
+                <h6 class="mt-3">Subscribe to get 5% off on all products.</h6>
+              </div>
+            </div>
+
+            <!-- Subscribe Form Section -->
+            <div class="col-12 col-md-6 mb-3 mb-md-0">
+              <form action="#" class="d-flex flex-column flex-md-row align-items-center justify-content-center">
+                <input type="text" class="form-control Subscribe-email mb-3 mb-md-0 ms-md-3"
+                  placeholder="Enter your email">
+                <button type="submit" class="btn btn-danger subscribe-btn py-px-4 text-white ms-md-2">Subscribe</button>
+              </form>
+            </div>
+
+            <!-- Social Icons Section -->
+            <div class="col-12 col-md-2 text-center text-md-end">
+              <div class="icon mt-3 mt-md-0">
+                <i class="fa-brands fa-facebook fs-4 social-icon me-3"></i>
+                <i class="fa-brands fa-instagram fs-4 social-icon me-3"></i>
+                <i class="fa-brands fa-youtube fs-4 social-icon"></i>
+              </div>
+            </div>
+          </div>
+          <!-- SECTION OF  FOOTER-CONTAIN  -->
+          <div class="container mt-5 mb-5 border-top border-bottom">
+            <div class="row mb-5">
+              <div class="col-md-3 text-white ">
+                <img src="IMAGE/logo2_footer.png.webp" alt="" class="mt-5">
+              </div>
+              <div class="col-md text-white">
+                <div class="footer-tittle mt-5">
+                  <h5>Shop Men</h5>
+                  <ul class="footer-containe mt-4">
+                    <li class="mb-3"><a href="#">Clothing Fashion</a></li>
+                    <li class="mb-3"><a href="#">Winter</a></li>
+                    <li class="mb-3"><a href="#">Summer</a></li>
+                    <li class="mb-3"><a href="#">Formal</a></li>
+                    <li class="mb-3"><a href="#">Casual</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-md text-white">
+                <div class="footer-tittle mt-5">
+                  <h5>Shop Men</h5>
+                  <ul class="footer-containe mt-4">
+                    <li class="mb-3"><a href="#">Clothing Fashion</a></li>
+                    <li class="mb-3"><a href="#">Winter</a></li>
+                    <li class="mb-3"><a href="#">Summer</a></li>
+                    <li class="mb-3"><a href="#">Formal</a></li>
+                    <li class="mb-3"><a href="#">Casual</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-md text-white">
+                <div class="footer-tittle mt-5">
+                  <h5>Baby Collection</h5>
+                  <ul class="footer-containe mt-4">
+                    <li class="mb-3"><a href="#">Clothing Fashion</a></li>
+                    <li class="mb-3"><a href="#">Winter</a></li>
+                    <li class="mb-3"><a href="#">Summer</a></li>
+                    <li class="mb-3"><a href="#">Formal</a></li>
+                    <li class="mb-3"><a href="#">Casual</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-md text-white">
+                <div class="footer-tittle mt-5">
+                  <h5>Quick Links</h5>
+                  <ul class="footer-containe mt-4">
+                    <li class="mb-3"><a href="#">Track Your Order</a></li>
+                    <li class="mb-3"><a href="#">Support</a></li>
+                    <li class="mb-3"><a href="#">FAQ</a></li>
+                    <li class="mb-3"><a href="#">Carrier</a></li>
+                    <li class="mb-3"><a href="#">About</a></li>
+                    <li class="mb-3"><a href="#">Contact Us</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="copyright text-center fs-5">
+                  <p class="text-white">Copyright ©2024 All rights reserved | This template is made with by
+                    <span class="text-danger">&#10084; DIVYA PATEL </span> <span class="text-danger">&#10084;</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </footer>
+
+    <!-- SCROLL UP  -->
+    <div id="back-top">
+      <a class="up-going" title="Go to Top" href="#">
+        <div class="arrows-container">
+          <i class="fa-solid fa-caret-up arrow-primary"></i>
+          <i class="fa-solid fa-caret-up arrow-shadow"></i>
+        </div>
+      </a>
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true,
+        },
+        autoplay: {
+          delay: 3000,
+          disableOnInteraction: false,
+        },
+        breakpoints: {
+          1200: {
+            slidesPerView: 1,
+          },
+          576: { slidesPerView: 1 }
+        },
+      });
+
+      // TRENDING THIS WEEK SWIPER CODE
+      var trendingSwiper = new Swiper(".swiper-container", {
+        slidesPerView: 4.5, // Number of slides visible on larger screens
+        centeredSlides: true,
+        spaceBetween: 30,
+        loop: true,
+        autoplay: {
+          delay: 2500,
+          disableOnInteraction: false
+        },
+        breakpoints: {
+          640: {
+            slidesPerView: 1.1
+          },
+          768: {
+            slidesPerView: 2.5
+          },
+          1024: {
+            slidesPerView: 4.2
+          }
+        }
+      });
+
+      // TESTIMONIAL SWIPER CODE - Continuous motion
+      var testimonialSwiper = new Swiper('.customer-testimonial', {
+        slidesPerView: 1,
+        loop: true,
+        loopedSlides: 3,
+        autoplay: {
+          delay: 2,
+          disableOnInteraction: false,
+        },
+        speed: 3000,
+        allowTouchMove: false,
+      });
+
+
+      // <!-- SECTION OF FREE DELIVERY  -->
+      // To show the section after some time or on an event
+      document.addEventListener("DOMContentLoaded", function () {
+        // Change display property to block
+        document.getElementById("delivery-section").style.display = "block";
+      });
+    </script>
+
+
+</body>
+
+</html>

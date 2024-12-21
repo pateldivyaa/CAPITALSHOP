@@ -1,0 +1,245 @@
+/* NAVBAR */
+* {
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+a {
+    font-weight: 600;
+}
+
+.menu {
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 600;
+}
+
+#navbarNav .nav-item .nav-link:hover,
+.icon:hover {
+    color: #FF2020 !important;
+    cursor: pointer;
+}
+
+
+#navbarNav {
+    position: static;
+}
+
+
+.nav-item .nav-link:hover {
+    color: #CEBD9C !important;
+}
+
+/* OFFER */
+.sale-section {
+    margin-top: 90px;
+}
+
+#shop {
+    color: #CEBD9C !important;
+    text-decoration: underline;
+
+}
+
+/* <!-- SECTION OF Category SALES  --> */
+.Category {
+    background-color: #F3EAD8;
+}
+
+.breadcrumb-item a {
+    color: #74706B !important;
+    font-size: 14px;
+    text-transform: capitalize;
+    line-height: 1;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+/* <!-- SSECTION OF  GET IN TOUCH   --> */
+.contact-title {
+    font-size: 27px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    font-family: "Jost", sans-serif;
+    color: #292621;
+    margin-bottom: 30px;
+}
+
+.form-contact .form-control {
+    border: 1px solid #ddd;
+    padding: 15px 15px;
+    margin-bottom: 30px;
+    transition: all 0.3s;
+    color: #212529;
+    border: 1px solid #e5e6e9;
+    border-radius: 0px;
+    padding-left: 18px;
+    font-size: 16px;
+    background: transparent;
+}
+
+.form-contact .form-control:focus {
+    border-color: #e2e5e855;
+}
+
+.button-contactForm {
+    background: #fff;
+    color: #FF2020 !important;
+    display: inline-block;
+    font-family: "Jost", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    border: 0;
+    border: 1px solid #FF2020;
+    text-align: center;
+    padding: 17px 30px;
+    transition: background-color 0.3s;
+}
+
+.button-contactForm:hover {
+    background-color: #FF2020;
+    color: #ddd !important;
+}
+
+.contact-info__icon {
+    color: #8f9195;
+    font-size: 27px;
+    margin-right: 20px;
+}
+
+.contact-info h3 {
+    margin-bottom: 0;
+    font-size: 16px;
+    color: #2a2a2a;
+    font-family: "Jost", sans-serif;
+    font-weight: 500;
+
+}
+
+.contact-info p {
+    color: #8a8a8a;
+    font-family: "Jost", sans-serif;
+    font-size: 16px;
+    margin-bottom: 15px;
+    font-weight: 400;
+    line-height: 1.6;
+    margin: 5px 0 0;
+    color: #666;
+}
+
+/* <!-- SECTION OF FOOTER  -->- */
+.social-icon {
+    color: #d3caf5;
+    transition: color 0.3s, transform 0.3s;
+}
+
+.social-icon:hover {
+    color: rgb(238, 31, 31) !important;
+    transform: rotateY(180deg);
+}
+
+.Subscribe-email {
+    padding: 18px 30px !important;
+    margin-right: 5px;
+}
+
+.subscribe-btn {
+    background-color: #FF2020 !important;
+    padding: 18px 30px !important;
+    outline: none;
+    border: none;
+}
+
+@media (max-width: 576px) {
+    .Subscribe-email {
+        padding: 12px 15px;
+    }
+
+    .subscribe-btn {
+        padding: 12px 20px;
+    }
+}
+
+.footer-containe {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-containe a {
+    font-weight: 400;
+    font-size: 16px;
+    color: #e5e2dc !important;
+    text-decoration: none;
+    transition: font-size 0.3s ease, text-decoration 0.3s ease;
+}
+
+.footer-containe a:hover {
+    font-size: 17px;
+    text-decoration: underline;
+}
+
+/* <!-- SCROLL UP  --> */
+#back-top {
+    background: #FF2020;
+    height: 40px;
+    width: 40px;
+    right: 31px;
+    bottom: 18px;
+    position: fixed;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 40px;
+    border: 2px solid transparent;
+    box-shadow: 0 0 10px 3px rgba(108, 98, 98, 0.2);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+
+.arrows-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.arrow-primary {
+    color: #ededed;
+    animation: bounce 1s ease infinite;
+}
+
+.arrow-shadow {
+    position: absolute;
+    top: 4px;
+    color: rgba(237, 237, 237, 0.5);
+    animation: bounce-shadow 1s ease infinite;
+    animation-delay: 0.2s;
+}
+
+@keyframes bounce {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-5px);
+    }
+}
+
+@keyframes bounce-shadow {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-3px);
+    }
+}
